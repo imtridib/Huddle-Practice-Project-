@@ -1229,6 +1229,31 @@ h6 {
     text-align: center;
   }
 }
+
+@media (max-width: 425px) {
+  .content-left {
+    margin-right: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+ .content-left button {
+    align-content: center;
+    margin-left: 0px;
+
+    width: 50%;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #fd53c0;
+    box-shadow: 0.1px 0px 30px 0.1px rgb(204, 204, 204);
+    transition: all cubic-bezier(0.17, 0.67, 0.83, 0.67) 0.3s;
+  } 
+} 
+
 @media (max-width: 375px) {
   html,
   body {
